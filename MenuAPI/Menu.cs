@@ -367,7 +367,7 @@ namespace MenuAPI
 
         public bool IgnoreDontOpenMenus { get; set; } = false;
 
-        public int MaxItemsOnScreen { get; internal set; } = 10;
+        public int MaxItemsOnScreen { get; internal set; } = 15;
 
         public int Size => filterActive ? FilterItems.Count : MenuItems.Count;
 
@@ -399,7 +399,7 @@ namespace MenuAPI
         public KeyValuePair<float, float> Position { get; private set; } = new KeyValuePair<float, float>(0f, 20f);
 #endif
 
-        public float MenuItemsYOffset { get; private set; } = 0f;
+        public float MenuItemsYOffset { get; private set; } = 10f;
 
         public string CounterPreText { get; set; }
 
@@ -407,7 +407,7 @@ namespace MenuAPI
 
         public int CurrentIndex { get { return index; } internal set { index = MathUtil.Clamp(value, 0, Math.Max(0, Size - 1)); } }
 
-        public bool EnableInstructionalButtons { get; set; } = true;
+        public bool EnableInstructionalButtons { get; set; } = false;
 
         /// <summary>
         /// Should contain 4 floats.
@@ -1239,7 +1239,7 @@ namespace MenuAPI
                 SetTextColour(255, 255, 255, 255);
                 SetTextScale(size, size);
                 SetTextJustification(0);
-                AddTextComponentSubstringPlayerName(MenuTitle);
+                //AddTextComponentSubstringPlayerName(MenuTitle);
                 if (LeftAligned)
                 {
                     EndTextCommandDisplayText(((headerSize.Key / 2f) / MenuController.ScreenWidth), y - (GetTextScaleHeight(size, font) / 2f));
@@ -1720,12 +1720,12 @@ namespace MenuAPI
 
             float textSize = (14f * 27f) / MenuController.ScreenHeight;
             float width = Width / MenuController.ScreenWidth;
-            float height = (140f) / MenuController.ScreenHeight;
+            float height = (200f) / MenuController.ScreenHeight;
             float x = ((Width / 2f) / MenuController.ScreenWidth);
             float y = descriptionYOffset + (height / 2f) + (8f / MenuController.ScreenHeight);
             if (Size > MaxItemsOnScreen)
             {
-                y -= (30f / MenuController.ScreenHeight);
+                y -= (80f / MenuController.ScreenHeight);
             }
 
             #region background

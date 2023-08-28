@@ -88,7 +88,7 @@ namespace MenuAPI
         private static int ManualTimerForGC = GetGameTimer();
 
 #if FIVEM
-        private static MenuAlignmentOption _alignment = MenuAlignmentOption.Left;
+        private static MenuAlignmentOption _alignment = MenuAlignmentOption.Right;
         public static MenuAlignmentOption MenuAlignment
         {
             get
