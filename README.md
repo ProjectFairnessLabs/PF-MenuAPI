@@ -1,10 +1,8 @@
-# MenuAPI
+# PF-MenuAPI
 
-**FiveM & RedM C# Menu API**
+**A FiveM/RedM C# Menu API for resources, updated and maintained.**
 
-[![Discord](https://discordapp.com/api/guilds/285424882534187008/widget.png)](https://vespura.com/discord) [![CodeFactor](https://www.codefactor.io/repository/github/tomgrobbe/menuapi/badge)](https://www.codefactor.io/repository/github/tomgrobbe/menuapi) [![Build status](https://ci.appveyor.com/api/projects/status/8nqoeyg0e9rn10ih/branch/master?svg=true)](https://ci.appveyor.com/project/TomGrobbe/menuapi/branch/master) [![Patreon](https://img.shields.io/badge/donate-Patreon-orange.svg)](https://www.patreon.com/vespura)
-
-Designed specifically as a replacement of **NativeUI**, MenuAPI features performance improvements, **RedM** _and_ **FiveM** support, improved stability, better features, less bugs, full safezone alignment support for both left and right algined menus (FiveM only) and less (in my opinion) unnecessary features.
+A fork for what was originally designed specifically as a replacement of **NativeUI**, MenuAPI features performance improvements, **RedM** _and_ **FiveM** support, improved stability, better features, less bugs, full safezone alignment support for both left and right algined menus (FiveM only) and less (in my opinion) unnecessary features.
 
 This has been coded from the ground up. Using decompiled scripts from GTA V & RedM to figure out what some undocumented natives were used for.
 
@@ -27,9 +25,9 @@ Feel like contributing to the documentation? The repository for the documentatio
 
 ## Copyright / License
 
-Copyright © Tom Grobbe 2018-2021.
+Copyright © Tom Grobbe 2018-2021, Project Fairness Labs 2022-2023.
 
-MenuAPI is a free resource, using a custom license.
+PF-MenuAPI is a free resource, using a custom license as used in the original MenuAPI.
 Conditions are listed below.
 
 ### You are allowed to
@@ -52,7 +50,10 @@ Conditions are listed below.
 ### In short
 
 It's very simple, don't steal my stuff, don't try to take credit for code that isn't yours and don't try to make money using my work. That's all I ask.
-
 If you'd like to do something that's not allowed per this license, contact me and we might be able to figure something out.
-
 Nothing is guaranteed to work, I do not take responsibility for any bugs or damages caused by this code. Use at your own risk.
+
+# Credits
+- TomGrobbe/Vespura (for original source code)
+- RickyB505 (Extra modifications)
+- Project Fairness Labs Community (for being awesome)
