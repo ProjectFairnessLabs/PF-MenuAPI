@@ -1,8 +1,8 @@
-# PF-MenuAPI
+# StarAPI
 
-**A FiveM/RedM C# Menu API for resources, updated and maintained.**
+**A fork of the famous MenuAPI, a FiveM/RedM C# Menu API for resources, updated and maintained.**
 
-A fork for what was originally designed specifically as a replacement of **NativeUI**, MenuAPI features performance improvements, **RedM** _and_ **FiveM** support, improved stability, better features, less bugs, full safezone alignment support for both left and right algined menus (FiveM only) and less (in my opinion) unnecessary features.
+A fork for what was originally designed specifically as a replacement of **NativeUI** and **MenuAPI**, StarAPI features performance improvements, **RedM** _and_ **FiveM** support, improved stability, better features, less bugs, full safezone alignment support for both left and right algined menus (FiveM only) and less (in my opinion) unnecessary features.
 
 This has been coded from the ground up. Using decompiled scripts from GTA V & RedM to figure out what some undocumented natives were used for.
 
@@ -43,7 +43,7 @@ Conditions are listed below.
 
 ### You must
 
-- Provide appropritate credits when including this in your project.
+- Provide appropriate credits when including this in your project.
 - State any changes you made if you want to re-release this code.
 - Keep this license when editing the source code or using this code in your own projects.
 
